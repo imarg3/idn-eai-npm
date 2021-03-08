@@ -1,0 +1,24 @@
+{
+  "name": "idn-eai",
+  "version": "1.0.0",
+  "description": "Utilities for IDN (Internationalized Domain Name) & EAI (Email Address Internationalization) services",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "IDN",
+    "EAI",
+    "Internationalized",
+    "Domain",
+    "Name",
+    "Email",
+    "Address",
+    "Internationalization"
+  ],
+  "author": "Arpit Gupta <gupta.arpit03@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
