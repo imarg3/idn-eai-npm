@@ -35,12 +35,12 @@ Instructions on how to use them in your own application are linked below.
 
 ### Usage & Examples
 
-const idn = require("idn");
+const eai = require("idn-eai");
 
-- idn.getDomainAnalysisResult("रजिस्ट्री.भारत") will return Analysis of this IDN domain
-- idn.punycode.toUnicode("xn--81bg3cc2b2bk5hb.xn--h2brj9c") will return रजिस्ट्री.भारत
-- validation.validateHindiWord("भारत का") will return boolean value : true
-- validation.validateHindiWord("hello world") will return boolean value : false
+- eai.getDomainAnalysisResult("रजिस्ट्री.भारत") will return Analysis of this IDN domain
+- eai.punycode.toUnicode("xn--81bg3cc2b2bk5hb.xn--h2brj9c") will return रजिस्ट्री.भारत
+- eai.validateHindiWord("भारत का") will return boolean value : true
+- eai.validateHindiWord("hello world") will return boolean value : false
 
 ### Environment
 
